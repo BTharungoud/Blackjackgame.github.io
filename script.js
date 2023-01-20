@@ -13,7 +13,7 @@
     for(let i in suits ){
         for(let j in values){
             packArr.push(values[j]+" of "+suits[i]);
-            packObj[values[j]+" of "+suits[i]]==parseInt[j]+1;
+            packObj[values[j]+" of "+suits[i]]=parseInt[j]+1;
         }
     }
     if(!asArray){
